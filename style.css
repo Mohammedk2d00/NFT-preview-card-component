@@ -1,0 +1,59 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+.container{ 
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px 20px 20px 20px ;
+    
+}
+.image{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 400px;
+    width: 400px;
+}
+.card-content h3 {
+    color: White;
+    padding-left: 30px;
+}
+.card-content p {
+    color: hsl(215, 51%, 70%);
+    padding-left: 30px;
+}
+.card-paragraph {
+    display: flex;
+    justify-content: space-between;
+}
+.card-paragraph .price {
+    color: hsl(178, 100%, 50%);
+}
+.ethereum {
+    width: 10px;
+    height: 20px;
+}
+.last-date {
+    padding-right: 30px;
+}
+
+.line {
+    color: hsl(215, 32%, 27%);
+}
+hr {
+    border-style: solid none none;
+    border-color: hsl(215, 32%, 27%);
+    border-width: 3px;
+
+}
+.avatar {
+    width: 30px;
+}
